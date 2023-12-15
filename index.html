@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LD12</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src = "scripts.js"></script>
+</head>
+<body>
+    <div id = "form-container">
+        <label for = "firstName">Vardas:</label>
+        <input type = "text" id="firstName" required>
+
+        <label for = "lastName">Pavardė:</label>
+        <input type = "text" id="lastName" required>
+
+        <label for = "birthdate">Gimimo data:</label>
+        <input type = "date" id="birthdate" required>
+        <button onclick = "saugotiDuomenis()">Skaičiuoti</button>
+    </div>
+    <div id = "output-container"></div>
+</body>
+</html>
